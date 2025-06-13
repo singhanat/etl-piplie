@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://singhanat: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@github.com/singhanat/etl-piplie/'
+                git branch: 'main', url: 'https://singhanat:ghp_ABCD1234TOKEN@github.com/singhanat/etl-piplie/'
             }
         }
     
